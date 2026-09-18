@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bütçe Asistanı — kişisel bütçe uygulaması | Can Karakaş</title>
+<meta name="description" content="Bütçe Asistanı, verilerini cihazında tutan, reklamsız ve ücretsiz bir kişisel bütçe uygulamasıdır. Geliştirici: Can Karakaş.">
+<style>
+  :root{
+    --ink:#16181A; --muted:#6F7580; --bg:#F3F7F0; --card:#fff;
+    --line:#E6ECE1; --green:#57B94A; --mint:#E9F5E3;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  .wrap{max-width:760px; margin:0 auto; padding:0 20px 72px}
+  header{background:var(--ink); color:#fff; padding:56px 0 48px; margin-bottom:34px}
+  header .wrap{padding-bottom:0}
+  .logo{
+    width:46px;height:46px;border-radius:14px;background:var(--green);
+    display:flex;align-items:center;justify-content:center;font-size:28px;color:#fff;margin-bottom:20px;
+  }
+  h1{font-size:38px;line-height:1.15;letter-spacing:-1px;margin:0 0 12px}
+  header p{margin:0;color:#C4D6BA;font-size:18px;max-width:46ch}
+  h2{font-size:22px;letter-spacing:-.3px;margin:38px 0 12px}
+  h3{font-size:16px;margin:0 0 6px}
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:22px;
+    padding:24px;margin:18px 0;
+  }
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:14px;margin:18px 0}
+  .grid .card{margin:0;padding:20px}
+  .grid p{margin:0;color:var(--muted);font-size:14.5px}
+  .tag{
+    display:inline-block;background:var(--mint);color:#2F7A24;border-radius:999px;
+    padding:5px 13px;font-size:13px;font-weight:600;margin-bottom:18px;
+  }
+  a{color:#3C8F31}
+  .muted{color:var(--muted)}
+  footer{border-top:1px solid var(--line);margin-top:44px;padding-top:24px;font-size:14px;color:var(--muted)}
+  .en{border-top:1px solid var(--line);margin-top:40px;padding-top:8px}
+  dt{font-weight:600;margin-top:14px}
+  dd{margin:2px 0 0;color:var(--muted)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="logo">∿</div>
+    <h1>Bütçe Asistanı</h1>
+    <p>Verileri cihazında kalan, reklamsız, ücretsiz kişisel bütçe uygulaması.</p>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <span class="tag">Android · ücretsiz · reklamsız</span>
+
+  <p>
+    Bütçe Asistanı; gelirini, giderini, sabit ödemelerini ve birikimini tek yerde
+    tutman için yapılmış küçük bir uygulama. Hesap açmana gerek yok, bir sunucuya
+    kayıt olmuyorsun; kayıtların telefonunun içindeki veritabanında duruyor.
+  </p>
+
+  <h2>Ne yapıyor</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Günlük takip</h3>
+      <p>Gelir ve giderlerini kategorilerle kaydet, dönem bazında harcanabilir tutarını gör.</p>
+    </div>
+    <div class="card">
+      <h3>Sabit gelir ve giderler</h3>
+      <p>Kira, maaş, abonelik gibi tekrarlayan kalemleri başlangıç ve bitiş tarihiyle tanımla.</p>
+    </div>
+    <div class="card">
+      <h3>Gelecek aylar</h3>
+      <p>Sabit kalemlerden yola çıkarak önümüzdeki ayların tahmini dengesini hesaplar.</p>
+    </div>
+    <div class="card">
+      <h3>Borçlar</h3>
+      <p>Borçlarını ve yaptığın ödemeleri ayrı ayrı izle.</p>
+    </div>
+    <div class="card">
+      <h3>Birikim ve varlıklar</h3>
+      <p>Döviz ve altın birikimini güncel karşılığıyla birlikte gör.</p>
+    </div>
+    <div class="card">
+      <h3>Türkçe ve İngilizce</h3>
+      <p>Uygulama iki dilde çalışır, birden fazla para birimini destekler.</p>
+    </div>
+  </div>
+
+  <h2>Gizlilik</h2>
+  <div class="card">
+    <p style="margin-top:0">
+      Bütçe kayıtların <strong>yalnızca cihazında</strong> saklanır. Uygulama hesap
+      oluşturmaz, kişisel verini bir sunucuya göndermez, reklam ve takip aracı içermez.
+      Yedek almak istersen dosya senin seçtiğin yere kaydedilir; yedeğin nerede
+      duracağına sen karar verirsin.
+    </p>
+    <p class="muted" style="margin-bottom:0">
+      Döviz ve altın kurları güncellenirken yalnızca kur bilgisi çekilir; bu istekle
+      birlikte bütçe verin gönderilmez.
+    </p>
+  </div>
+
+  <h2>Uygulamayı destekle</h2>
+  <div class="card">
+    <p style="margin-top:0">
+      Uygulama ücretsiz ve reklamsız; bunu böyle tutmak istiyorum. İşine yaradıysa
+      gönüllü bir destek gönderebilirsin.
+    </p>
+    <p class="muted" style="margin-bottom:0">
+      Destek tamamen isteğe bağlıdır. Karşılığında ek bir özellik, abonelik veya
+      hizmet verilmez; uygulamanın tamamı destek göndermeyenler için de aynı şekilde
+      çalışır. Destekle ilgili bir sorun olursa aşağıdaki e-postadan yazabilirsin.
+    </p>
+  </div>
+
+  <h2>İletişim</h2>
+  <dl style="margin:0">
+    <dt>Geliştirici</dt>
+    <dd>Can Karakaş — Almanya</dd>
+    <dt>E-posta</dt>
+    <dd><a href="mailto:cankarakas91@gmail.com">cankarakas91@gmail.com</a></dd>
+    <dt>Platform</dt>
+    <dd>Android. Uygulama şu anda doğrudan dağıtılıyor, mağaza yayını hazırlanıyor.</dd>
+  </dl>
+
+  <div class="en">
+    <h2>In English</h2>
+    <p>
+      <strong>Bütçe Asistanı (“Budget Assistant”)</strong> is a free, ad-free personal
+      budgeting app for Android, developed by <strong>Can Karakaş</strong> (Germany).
+      It tracks income, expenses, recurring items, debts and savings.
+    </p>
+    <p>
+      <strong>Privacy:</strong> all budget records are stored locally on the user’s
+      device. The app creates no account, sends no personal data to a server, and
+      contains no advertising or tracking.
+    </p>
+    <p>
+      <strong>Support:</strong> the app is free of charge. Users may optionally send a
+      voluntary contribution to support continued development. Contributions are
+      entirely optional, no goods, services, features or subscriptions are provided in
+      return, and the app remains fully functional without them.
+    </p>
+    <p>
+      <strong>Contact:</strong>
+      <a href="mailto:cankarakas91@gmail.com">cankarakas91@gmail.com</a>
+    </p>
+  </div>
+
+  <footer>
+    © 2026 Can Karakaş · Bütçe Asistanı
+  </footer>
+
+</div>
+</body>
+</html>
